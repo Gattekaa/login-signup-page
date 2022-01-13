@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a359a9c6d3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cardback">
+        <div class="svg">
+            <div class="header">
+                <a class="logo" href="#"><img src="./planet.png" alt="Logo">Anywhere app<p id="dotlogo">.</p></a>
+                <a class="options" href="#">Home</a>
+                <a class="options" href="#">Join</a>
+            </div>
+            <div class="formfield">
+                <div class="field">
+                    <h2>START FOR FREE</h2>
+                    <h1>Create new account<p id="dot">.</p>
+                    </h1>
+                    <div class="member">
+                        <p>Already A member?</p>
+                        <p id="log">Log In</p>
+                    </div>
+                    <div class="inputs">
+                        <div class="namefield">
+                            <div class="name">
+                                <p>First name</p>
+                                <input type="text">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                            <div class="name">
+                                <p>Last name</p>
+                                <input type="text">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                        </div>
+                        <div class="dados">
+                            <div class="dadosfield">
+                                <p>Email</p>
+                                <input type="email">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="dados">
+                            <div class="dadosfield">
+                                <p>Password</p>
+                                <input type="password" id="password">
+                                <i class="fas fa-eye" id="eye"></i>
+                            </div>
+                        </div>
+
+                        <div class="buttonfield">
+                            <button class="change">Change method</button>
+                            <button class="create" id="create">Create account</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="cubeside">
+                    <div class="cube" id="spancube">
+                        <div class="top"></div>
+                        <div class="shadow" id="shadow"></div>
+                        <div id="cubos" class="cubos">
+                            <span style="--i:0;"></span>
+                            <span style="--i:1;"></span>
+                            <span style="--i:2;"></span>
+                            <span style="--i:3;"></span>
+                        </div>
+                    </div>
+                    <input type="color" name="cubepicker" id="cubepicker" onchange="changeColor()" value="#1d90f4">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
